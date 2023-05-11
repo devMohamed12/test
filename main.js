@@ -437,8 +437,8 @@ if (window.location.href.includes("country")) {
 else if (window.location.href.includes("home")) {
 } else {
   const user = {
-    name: "Hadeer1",
-    email: "Hadeer1@gmail.com",
+    name: "m",
+    email: "m",
     password: "123456",
   };
   localStorage.setItem("user", JSON.stringify(user));
@@ -462,7 +462,7 @@ else if (window.location.href.includes("home")) {
       //for local host
       // window.location.href = "/home.html";
       // for github
-      window.location.href = "/traveling1/home.html";
+      window.location.href = "/test/home.html";
     } else {
       formErrors.innerHTML = "Please enter valid data";
     }
